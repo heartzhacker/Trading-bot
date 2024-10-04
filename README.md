@@ -26,5 +26,16 @@ To run this project on your local machine, follow these steps:
    ```bash
    git clone https://github.com/your-username/rsi-trading-bot.git
    cd rsi-trading-bot
+1. Install dependencies:
+
+   ```bash
+   npm install
+1. Create a .env file in the root directory and add the mock API URL:
+
+   ```bash
+   API_URL=https://66ffbf824da5bd237551ca98.mockapi.io/stock-prices
+   
+
+   
 
 
