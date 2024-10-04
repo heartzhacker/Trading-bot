@@ -45,7 +45,37 @@ To run this project on your local machine, follow these steps:
 This will start the trading bot and display the RSI values and signals in the console.
    
    
+## Usage
 
-   
+Once the bot is running, it will fetch stock prices from the API, calculate the RSI for each stock, and print the following signals in the console:
+
+- **Buy Signal**: RSI < 30
+- **Sell Signal**: RSI > 70
+- **Hold Signal**: 30 <= RSI <= 70
+
+---
+
+## Project Structure
+
+
+- **.env**: Stores environment variables such as the mock API URL for stock data. This keeps sensitive information and configuration settings separate from the code.
+  
+- **index.js**: The main entry point of the application. This file sets up the Express server, defines the routes, and starts the server. It also includes the route to trigger the trading bot.
+
+- **tradingLogic.js**: This file contains the core logic for fetching stock data from the mock API, calculating the RSI (Relative Strength Index), and determining trading signals (buy, sell, or hold).
+
+- **package.json**: Contains metadata about the project, including the project name, version, description, and the dependencies required to run the application (such as Express and Axios).
+
+- **README.md**: Documentation that provides a detailed explanation of the project, including installation, setup, usage instructions, and information on how the code works.
+
+
+## Technologies Used
+
+- Node.js
+- Express.js
+- Axios
+- MockAPI
+- dotenv
+
 
 
