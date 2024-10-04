@@ -26,3 +26,11 @@ To run this project on your local machine, follow these steps:
    ```bash
    git clone https://github.com/your-username/rsi-trading-bot.git
    cd rsi-trading-bot
+
+rsi-trading-bot/
+├── .env                # Environment variables (contains API URL)
+├── index.js            # Main entry point for the server
+├── tradingLogic.js     # RSI calculation and trading logic
+├── package.json        # Project metadata and dependencies
+└── README.md           # Project documentation
+
