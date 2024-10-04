@@ -24,8 +24,8 @@ To run this project on your local machine, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/rsi-trading-bot.git
-   cd rsi-trading-bot
+   git clone https://github.com/heartzhacker/Trading-bot.git
+   cd Trading-bot
 2. Install dependencies:
 
    ```bash
